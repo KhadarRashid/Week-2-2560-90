@@ -1,0 +1,16 @@
+#real-alert {
+    color: red;
+    border: red solid;
+    background-color: pink;
+    display: block;
+    padding-bottom: 100px;
+}
+
+#test-only {
+    color: blue;
+    border: black solid;
+    padding-left: 2px;
+    background-color: black;
+    display: block;
+    padding-bottom: 100px;
+}

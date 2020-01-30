@@ -1,0 +1,9 @@
+.jumbotron {
+    color: rgb(19, 219, 226);
+    background-image: linear-gradient(to bottom right, rgb(187, 231, 85), rgb(100, 77, 0));
+}
+
+#gradient-font { 
+    font-family: 'Atma', cursive;
+    background-image: url('Blessing.png');
+} 

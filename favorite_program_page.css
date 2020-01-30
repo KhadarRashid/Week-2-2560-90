@@ -1,0 +1,47 @@
+.jumbotron {
+    color: rgba(0, 160, 253, 0.959);
+    background-color: rgb(0, 98, 122);
+    text-align: center;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(104, 82, 129);
+    color: rgb(0, 0, 0);
+
+}
+
+#program_description {
+
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+/* I refernced this site for the code part http://adis.ca/entry/2011/pretty-code-block-in-css/ */
+pre {
+    font-size: 95%;
+    line-height: 140%;
+    white-space: pre;
+    white-space: pre-wrap;
+
+}       
+
+code {
+    font-size: 95%;
+    line-height: 140%;
+    color: white;
+    white-space: pre;
+    white-space: pre-wrap;
+    background: #000000;
+}
+
+#content {
+    display: block;
+    padding: 0.5em 1em;
+    border: 1px solid #bebab0;
+    color: white;
+}
+
+#name {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}

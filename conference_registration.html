@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <title> Conference Registration Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="conference_registration.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Atma&display=swap" rel="stylesheet">
+  
+
+    <div class="jumbotron">
+        <h1>Conference Registration Form </h1>
+    </div>
+    <body class="m-4" id="gradient-font">
+        <form>
+            <div class="row">
+                <div class="col-md-3">
+                    <p>Asterisks (*) indicate required fields</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <label for="name">Please enter your name (Max 70 characters): * </label>
+            <input id="name" name="username" class="form-control" type="text"  maxlength="70" required>
+            
+            
+            <label for="password">Enter your password: *</label>
+            <input id="password" class="form-control" name="password" type="password" required>
+            <br>
+            
+            
+            <label for="email">Enter your email: * </label>
+            <input id="email" class="form-control" name="email" type="email" required>
+            
+            <br>
+            <div>
+                <p class="form-check-label">What t-shirt size do you wear?</p>
+            <select>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+            <br>
+            </div>
+            
+            
+            <div>
+                <label for="DOB">What is your Date Of Birth? * </label>
+                <input id="DOB" class="form-control" name="DOB" type="date" required>
+            </div>
+            
+            <div id="session">
+                <p>Which meeting will you be attending?</p>
+                <input type="checkbox" name="morning"> Morning Session<br>
+                <input type="checkbox" name="afternoon"> Afternoon Session<br>
+            </div>
+            
+
+            <div>
+                <label for="special_recs">Any Special Requests?</label>
+                <textarea id="special_recs" class="form-check" rows="7" cols="70"></textarea>
+            </div>
+
+            <p>Would you like to receive emails from sponsors?</p>
+
+            <div class="form-check">
+                <input name="y/n" id="no" class="form-check-label" type="radio">No <br>
+                <input name="y/n" id="yes" class="form-check-label" type="radio">Yes
+            </div>
+
+            <br> <input class="btn btn-primary mt-2" type="submit">
+            </div>
+        </form>
+    </body>
+</html>
+

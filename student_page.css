@@ -1,0 +1,12 @@
+.jumbotron {
+    color: aquamarine;
+    background-image: linear-gradient(to bottom right, teal, turquoise);
+}
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: rgb(240, 255, 255);
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+}

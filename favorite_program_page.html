@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="favorite_program_page.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+        <title>My Favorite Program</title>
+    </head>
+    <body class="m-4">
+        <div class="jumbotron">
+            <h1>Tic-Tac-Woah</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div id="program_description">
+                    <p>One of my favorite programs that i have written so far would have to be a simple Tic-Tac-Toe <br>
+                    game taken a step further where there is a second additional layer. You have to win at the second <br>
+                    to claim a spot on the first. It is a neat program <br>
+                    <br>
+                    Here is a quick snippet of the code that i wrote for it. It is written in C#.</p>
+                </div>
+                <div>
+                    <pre>
+                        <code id="content">
+                        Button b = (Button)sender; // Checks to see whose turn it is and assigns the needed sign. <br>
+                        if (turn == true)
+            
+                            b.Text = "X";
+            
+                        else 
+            
+                            b.Text = "O";
+                        turn = !turn;
+                        b.Enabled = false; //Disables the button
+                        turnCounter++; // Counts to see how many turns there have been in case of a draw
+                        CheckWinner(); // Method being called to check the winner
+                        </code>
+                    </pre>
+                    <h1 class="jumbotron">The game in action</h1>
+                    <img src="tictactoe.png" alt="Tic-Tac-Toe board" height="400" width="300">
+                </div>
+        
+                <p id="name">
+                    By <b>Khadar Rashid</b> :)
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
